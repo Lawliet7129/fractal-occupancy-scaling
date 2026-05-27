@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# LaTeX manuscript build-artifacts. The pipeline writes table fragments
+# (generated/results_*.tex) and \newcommand macro files (generated/macros*.tex)
+# for the paper; those belong with the manuscript, not this code repo. Only the
+# numerical *.csv outputs are tracked here. (This also covers the transient
+# default-tier snapshot generated/.macros_default_snapshot.tex.)
+generated/*.tex

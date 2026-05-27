@@ -1,0 +1,8 @@
+# Core dependencies for the simulation and analysis pipeline.
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Optional GPU backend, used only with the --gpu flag (exact: returns the same
+# integer box counts as the CPU path). Requires an NVIDIA GPU with CUDA 12.x.
+#   pip install "cupy-cuda12x[ctk]"
